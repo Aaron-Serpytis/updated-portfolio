@@ -56,7 +56,7 @@ function App() {
 
   return (
     <div className="relative min-h-screen bg-slate-950 text-white selection:bg-indigo-500/30 scroll-smooth">
-      <div className="fixed inset-0 z-0 pointer-events-none opacity-[0.05] bg-[linear-gradient(to_right,theme(colors.indigo.400)_1px,transparent_1px),linear-gradient(to_bottom,theme(colors.indigo.400)_1px,transparent_1px)] bg-[size:40px_40px] animate-grid [mask-image:radial-gradient(ellipse_at_center,black,transparent_80%)]"></div>
+      <div className="fixed inset-0 z-0 pointer-events-none opacity-[0.2] bg-[linear-gradient(to_right,theme(colors.indigo.200)_3px,transparent_3px),linear-gradient(to_bottom,theme(colors.indigo.400)_3px,transparent_1px)] bg-[size:40px_40px] animate-grid [mask-image:radial-gradient(ellipse_at_center,black,transparent_80%)]"></div>
 
       <header className="fixed top-0 left-0 right-0 z-50">
         <nav className="flex items-center justify-between border-b border-white/5 h-20 px-8 bg-slate-950/90 backdrop-blur-md">
